@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Renovasi Rumah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        header nav ul li {
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: #555;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero .btn {
+            background-color: #f39c12;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .services, .projects, .contact {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            max-width: 300px;
+        }
+        .project-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .project {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+        }
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact form input, .contact form textarea, .contact form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jasa Renovasi Rumah</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Mewujudkan Bangunan Impian Anda</h2>
+            <p>Kami menawarkan jasa bangunan dan renovasi dengan kualitas terbaik.</p>
+            <a href="#services" class="btn">Lihat Layanan</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Layanan Kami</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Renovasi Rumah</h3>
+                    <p>Renovasi total atau sebagian untuk meningkatkan kenyamanan rumah Anda.</p>
+                </div>
+                <div class="service">
+                    <h3>Desain Bangunan</h3>
+                    <p>Layanan desain arsitektur untuk bangunan baru atau renovasi.</p>
+                </div>
+                <div class="service">
+                    <h3>Konstruksi Bangunan</h3>
+                    <p>Pembangunan dari awal dengan tenaga profesional dan bahan berkualitas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Proyek Kami</h2>
+            <p>Beberapa proyek yang telah kami selesaikan:</p>
+            <div class="project-gallery">
+                <div class="project">Proyek 1</div>
+                <div class="project">Proyek 2</div>
+                <div class="project">Proyek 3</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Hubungi kami untuk konsultasi gratis!</p>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" placeholder="Pesan Anda" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jasa Renovasi Rumah. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
